@@ -15,8 +15,8 @@ export default function Home() {
 
   return (
     <div style={{ display: "flex", gap: "20px", padding: "20px" }}>
+      {/* Can be any user interaction */}
       <button onClick={() => setShouldShowRecaptcha(true)}>
-        {/* Can be any user interaction */}
         Load ReCAPTCHA
       </button>
       {shouldShowRecaptcha && (
