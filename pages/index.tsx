@@ -10,7 +10,7 @@ export default function Home() {
   } = useLazyRecaptcha();
 
   const doPostRecaptchaTasks = () => {
-    console.log("Verified!");
+    alert("Verified!");
   };
 
   return (
